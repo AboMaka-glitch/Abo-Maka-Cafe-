@@ -1,95 +1,85 @@
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
 }
 
 body{
-background:#111;
-background:linear-gradient(135deg,#111,#222,#000);
-display:flex;
-justify-content:center;
-align-items:center;
-min-height:100vh;
-padding:20px;
-color:white;
+    background:#111;
+    background:linear-gradient(135deg,#111,#1b1b1b,#000);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
 }
 
 .container{
-width:100%;
-max-width:420px;
-background:#1a1a1a;
-border-radius:25px;
-padding:30px;
-text-align:center;
-box-shadow:0 0 25px rgba(0,0,0,.5);
+    width:100%;
+    max-width:420px;
+    background:#1f1f1f;
+    border-radius:20px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 0 25px rgba(0,0,0,.5);
 }
 
-.logo img{
-width:170px;
-height:170px;
-border-radius:50%;
-object-fit:cover;
-margin-bottom:15px;
-border:4px solid #d4af37;
-box-shadow:0 0 20px rgba(212,175,55,.4);
-  }
-
 h1{
-font-size:34px;
-color:#d4af37;
-margin-bottom:10px;
+    color:#d4af37;
+    margin-bottom:10px;
+    font-size:34px;
 }
 
 p{
-color:#cccccc;
-margin-bottom:25px;
+    color:#ddd;
+    margin-bottom:25px;
 }
 
 .btn{
-display:flex;
-align-items:center;
-justify-content:center;
-gap:10px;
-text-decoration:none;
-padding:16px;
-margin:12px 0;
-border-radius:14px;
-font-size:18px;
-font-weight:bold;
-color:#fff;
-transition:.3s;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    width:100%;
+    padding:16px;
+    margin:12px 0;
+    text-decoration:none;
+    border-radius:12px;
+    font-size:18px;
+    font-weight:bold;
+    color:#fff;
+    transition:0.3s;
 }
 
 .btn:hover{
-transform:scale(1.03);
+    transform:scale(1.03);
 }
 
 .menu{
-background:#d4af37;
-color:#111;
+    background:#d4af37;
+    color:#111;
 }
 
 .youtube{
-background:#ff0000;
+    background:#ff0000;
 }
 
 .instagram{
-background:#e1306c;
+    background:#E1306C;
 }
 
 .facebook{
-background:#1877f2;
+    background:#1877F2;
 }
 
 .tiktok{
-background:#000;
-border:1px solid #555;
+    background:#000;
+    border:1px solid #555;
 }
 
 footer{
-margin-top:25px;
-font-size:14px;
-color:#999;
+    margin-top:25px;
+    color:#999;
+    font-size:14px;
 }
